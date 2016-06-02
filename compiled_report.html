@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Employee', 'Money Delivered'],
+        ['Fry',     35000],
+        ['Amy',      15000],
+        ['Bender',  355600],
+        ['Leela', 131295],
+      ]);
+      var options = {
+        title: 'Money Delivered by Each Employee This Week'
+      };
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      chart.draw(data, options);
+    }
+  </script>
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+ <h1>We made $536895 this week!.</h1>
+
+<p>
+  Fry got a $3500 bonus this week!. <br>
+  Amy got a $1500 bonus this week!.<br>
+  Bender got a $35560 bonus this week!.<br>
+  Leela got a $13129 bonus this week!.
+</p>
+
+<p>
+  Fry made 2 trips this week. <br>
+  Amy made 1 trips this week. <br>
+  Bender made 2 trips this week. <br>
+  Leela made 5 trips this week.
+</p>
+
+
+
+  <table style="width:70%">
+    <tr>
+      <td>Destination</td>
+      <td>Shipment</td>
+      <td>Crates</td>
+      <td>Money</td>
+    </tr>
+    
+    <tr>
+      <td>Earth</td>
+      <td>Hamburgers</td>
+      <td>150</td>
+      <td>30000</td>
+    </tr>
+    
+    <tr>
+      <td>Moon</td>
+      <td>Tacos</td>
+      <td>33</td>
+      <td>44500</td>
+    </tr>
+    
+    <tr>
+      <td>Earth</td>
+      <td>Movies</td>
+      <td>34</td>
+      <td>5000</td>
+    </tr>
+    
+    <tr>
+      <td>Mars</td>
+      <td>BBQ Sauce</td>
+      <td>999</td>
+      <td>15000</td>
+    </tr>
+    
+    <tr>
+      <td>Uranus</td>
+      <td>Whiskey</td>
+      <td>1000</td>
+      <td>345600</td>
+    </tr>
+    
+    <tr>
+      <td>Jupiter</td>
+      <td>Books</td>
+      <td>10</td>
+      <td>3451</td>
+    </tr>
+    
+    <tr>
+      <td>Pluto</td>
+      <td>Beer</td>
+      <td>100</td>
+      <td>2344</td>
+    </tr>
+    
+    <tr>
+      <td>Uranus</td>
+      <td>Pizza</td>
+      <td>66</td>
+      <td>10000</td>
+    </tr>
+    
+    <tr>
+      <td>Saturn</td>
+      <td>Pizza</td>
+      <td>26</td>
+      <td>1000</td>
+    </tr>
+    
+    <tr>
+      <td>Mercury</td>
+      <td>Pizza</td>
+      <td>36</td>
+      <td>80000</td>
+    </tr>
+    
+ </table>
+
+ <br>
+ <br>
+
+ <table style="width:70%">
+   <tr>
+     <td>Name</td>
+     <td>Bonus</td>
+     <td>Trips</td>
+   </tr>
+   
+    <tr>
+      <td>Fry</td>
+      <td>$3500</td>
+      <td>2</td>
+    </tr>
+    
+    <tr>
+      <td>Amy</td>
+      <td>$1500</td>
+      <td>1</td>
+    </tr>
+    
+    <tr>
+      <td>Bender</td>
+      <td>$35560</td>
+      <td>2</td>
+    </tr>
+    
+    <tr>
+      <td>Leela</td>
+      <td>$13129</td>
+      <td>5</td>
+    </tr>
+    
+</table>
+<br>
+<br>
+
+ <div id="piechart" style="width: 900px; height: 500px;"></div>
+
+ <div class="gif">
+   <img src="https://media.giphy.com/media/LlTYKN146VMyI/giphy.gif"/>
+ </div>
+
+  </body>
+</html>
