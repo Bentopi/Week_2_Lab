@@ -1,0 +1,55 @@
+@import url(normalize.css);
+body {
+  background: #fefefe; }
+  body .earnings {
+    padding-top: 30px;
+    padding-left: 100px; }
+  body .flextop {
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center; }
+    body .flextop .p1 {
+      padding-top: 20px;
+      padding-left: 55px;
+      flex-grow: 0;
+      font-size: 20px; }
+    body .flextop .p2 {
+      padding-top: 20px;
+      padding-left: 55px;
+      font-size: 20px;
+      flex-grow: 0; }
+  body span h1 {
+    padding-left: 100px; }
+  body .table_1 {
+    padding-bottom: 40px; }
+
+.row.header {
+  background: #9ea5ab;
+  text-align: center;
+  color: #F0F1F2;
+  width: 100%; }
+
+.gif {
+  border: 2px groove #F0F1F2;
+  max-width: 100%; }
+
+.piechart {
+  padding-right: 50px; }
+
+.flexbottom {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center; }
+
+/*# sourceMappingURL=master.css.map */

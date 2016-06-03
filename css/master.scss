@@ -1,0 +1,68 @@
+@import 'normalize.css';
+
+$mainColor:#F0F1F2;
+body {
+
+  background: lighten($mainColor, 5%);
+  .earnings {
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+  .flextop {
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    .p1 {
+      padding-top: 20px;
+      padding-left: 55px;
+      flex-grow: 0;
+      font-size: 20px;
+    }
+    .p2 {
+      padding-top: 20px;
+      padding-left: 55px;
+      font-size: 20px;
+      flex-grow: 0;
+    }
+  }
+  span h1 {
+    padding-left: 100px;
+  }
+  .table_1 {
+    // padding-left: 70px;
+    padding-bottom: 40px;
+  }
+  .table_2 {
+    // padding-left: 70px;
+  }
+}
+.row.header {
+  background: darken($mainColor, 30%);
+  text-align: center;
+  color: $mainColor;
+  width: 100%;
+}
+
+  .gif {
+    border: 2px groove $mainColor;
+    max-width: 100%;
+  }
+  .piechart {
+    padding-right: 50px;
+  }
+  .flexbottom {
+    padding-left: 50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+}
